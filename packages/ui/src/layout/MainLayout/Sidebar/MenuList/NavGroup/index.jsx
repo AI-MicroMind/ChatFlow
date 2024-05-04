@@ -7,12 +7,13 @@ import { Divider, List, Typography } from '@mui/material'
 // project imports
 import NavItem from '../NavItem'
 import NavCollapse from '../NavCollapse'
+import { useEffect } from 'react'
 
 // ==============================|| SIDEBAR MENU LIST GROUP ||============================== //
 
 const NavGroup = ({ item }) => {
     const theme = useTheme()
-
+    let isArabic = localStorage.getItem('isArabic')
     // menu list collapse & items
     const items = item.children?.map((menu) => {
         switch (menu.type) {
@@ -28,14 +29,16 @@ const NavGroup = ({ item }) => {
                 )
         }
     })
-
+    useEffect(() => {
+        isArabic = localStorage.getItem('isArabic')
+    }, [localStorage])
     return (
         <>
             <List
                 subheader={
                     item.title && (
                         <Typography variant='caption' sx={{ ...theme.typography.menuCaption }} display='block' gutterBottom>
-                            {item.title}
+                            {isArabic ? item.arabicTitle : item.title}
                             {item.caption && (
                                 <Typography variant='caption' sx={{ ...theme.typography.subMenuCaption }} display='block' gutterBottom>
                                     {item.caption}

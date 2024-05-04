@@ -13,7 +13,8 @@ const dashboard = {
     children: [
         {
             id: 'chatflows',
-            title: 'Chatflows',
+            title: 'تدفقات الدردشة',
+            arabicTitle: 'تدفقات الدردشة',
             type: 'item',
             url: '/chatflows',
             icon: icons.IconHierarchy,
@@ -21,7 +22,8 @@ const dashboard = {
         },
         {
             id: 'marketplaces',
-            title: 'Marketplaces',
+            title: 'أسواق',
+            arabicTitle: 'أسواق',
             type: 'item',
             url: '/marketplaces',
             icon: icons.IconBuildingStore,
@@ -29,7 +31,8 @@ const dashboard = {
         },
         {
             id: 'tools',
-            title: 'Tools',
+            title: 'أدوات',
+            arabicTitle: 'أدوات',
             type: 'item',
             url: '/tools',
             icon: icons.IconTool,
@@ -37,7 +40,8 @@ const dashboard = {
         },
         {
             id: 'assistants',
-            title: 'Assistants',
+            title: 'المساعدين',
+            arabicTitle: 'المساعدين',
             type: 'item',
             url: '/assistants',
             icon: icons.IconRobot,
@@ -45,7 +49,8 @@ const dashboard = {
         },
         {
             id: 'credentials',
-            title: 'Credentials',
+            title: 'بيانات الاعتماد',
+            arabicTitle: 'بيانات الاعتماد',
             type: 'item',
             url: '/credentials',
             icon: icons.IconLock,
@@ -53,7 +58,8 @@ const dashboard = {
         },
         {
             id: 'variables',
-            title: 'Variables',
+            title: 'متغيرات',
+            arabicTitle: 'متغيرات',
             type: 'item',
             url: '/variables',
             icon: icons.IconVariable,
@@ -61,7 +67,8 @@ const dashboard = {
         },
         {
             id: 'apikey',
-            title: 'API Keys',
+            title: 'مفاتيح API',
+            arabicTitle: 'مفاتيح API',
             type: 'item',
             url: '/apikey',
             icon: icons.IconKey,

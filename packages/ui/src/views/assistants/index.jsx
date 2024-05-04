@@ -101,14 +101,14 @@ const Assistants = () => {
                     <ErrorBoundary error={error} />
                 ) : (
                     <Stack flexDirection='column' sx={{ gap: 3 }}>
-                        <ViewHeader title='OpenAI Assistants'>
+                        <ViewHeader title='OpenAI مساعدين'>
                             <Button
                                 variant='outlined'
                                 onClick={loadExisting}
                                 startIcon={<IconFileUpload />}
                                 sx={{ borderRadius: 2, height: 40 }}
                             >
-                                Load
+                                تحميل
                             </Button>
                             <StyledButton
                                 variant='contained'
@@ -116,7 +116,7 @@ const Assistants = () => {
                                 onClick={addNew}
                                 startIcon={<IconPlus />}
                             >
-                                Add
+                                اضافه
                             </StyledButton>
                         </ViewHeader>
                         {isLoading ? (

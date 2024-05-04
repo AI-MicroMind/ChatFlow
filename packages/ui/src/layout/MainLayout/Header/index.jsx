@@ -74,12 +74,19 @@ const Header = ({ handleLeftDrawerToggle }) => {
     const customization = useSelector((state) => state.customization)
 
     const [isDark, setIsDark] = useState(customization.isDarkMode)
+    const [isArabic, setIsArabic] = useState(false)
     const dispatch = useDispatch()
 
     const changeDarkMode = () => {
         dispatch({ type: SET_DARKMODE, isDarkMode: !isDark })
         setIsDark((isDark) => !isDark)
         localStorage.setItem('isDarkMode', !isDark)
+    }
+    const changeLang = () => {
+        setIsArabic((isArabic) => !isArabic)
+        localStorage.setItem('isArabic', !isArabic)
+        let isArabic = localStorage.getItem('isArabic')
+        console.log(isArabic)
     }
 
     const signOutClicked = () => {
@@ -127,6 +134,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
             </Box>
             <Box sx={{ flexGrow: 1 }} />
             <MaterialUISwitch checked={isDark} onChange={changeDarkMode} />
+            {/* <MaterialUISwitch checked={isArabic} onChange={changeLang} /> */}
             <Box sx={{ ml: 2 }}></Box>
             <ProfileSection handleLogout={signOutClicked} username={localStorage.getItem('username') ?? ''} />
         </>

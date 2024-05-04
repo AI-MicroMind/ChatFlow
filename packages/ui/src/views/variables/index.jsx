@@ -200,9 +200,9 @@ const Variables = () => {
                     <ErrorBoundary error={error} />
                 ) : (
                     <Stack flexDirection='column' sx={{ gap: 3 }}>
-                        <ViewHeader onSearchChange={onSearchChange} search={true} searchPlaceholder='Search Variables' title='Variables'>
+                        <ViewHeader onSearchChange={onSearchChange} search={true} searchPlaceholder='Search Variables' title='متغيرات'>
                             <Button variant='outlined' sx={{ borderRadius: 2, height: '100%' }} onClick={() => setShowHowToDialog(true)}>
-                                How To Use
+                                كيفية الاستخدام
                             </Button>
                             <StyledButton
                                 variant='contained'
@@ -211,7 +211,7 @@ const Variables = () => {
                                 startIcon={<IconPlus />}
                                 id='btn_createVariable'
                             >
-                                Add Variable
+                                اضافة متغير
                             </StyledButton>
                         </ViewHeader>
                         {!isLoading && variables.length === 0 ? (

@@ -232,7 +232,7 @@ const Credentials = () => {
                             onSearchChange={onSearchChange}
                             search={true}
                             searchPlaceholder='Search Credentials'
-                            title='Credentials'
+                            title='بيانات الاعتماد'
                         >
                             <StyledButton
                                 variant='contained'
@@ -240,7 +240,7 @@ const Credentials = () => {
                                 onClick={listCredential}
                                 startIcon={<IconPlus />}
                             >
-                                Add Credential
+                                اضافة بيان اعتماد
                             </StyledButton>
                         </ViewHeader>
                         {!isLoading && credentials.length <= 0 ? (

@@ -117,7 +117,7 @@ const Tools = () => {
                     <ErrorBoundary error={error} />
                 ) : (
                     <Stack flexDirection='column' sx={{ gap: 3 }}>
-                        <ViewHeader title='Tools'>
+                        <ViewHeader title='ادوات'>
                             <Box sx={{ display: 'flex', alignItems: 'center' }}>
                                 <Button
                                     variant='outlined'
@@ -125,7 +125,7 @@ const Tools = () => {
                                     startIcon={<IconFileUpload />}
                                     sx={{ borderRadius: 2, height: 40 }}
                                 >
-                                    Load
+                                    تحميل
                                 </Button>
                                 <input
                                     style={{ display: 'none' }}
@@ -143,7 +143,7 @@ const Tools = () => {
                                     startIcon={<IconPlus />}
                                     sx={{ borderRadius: 2, height: 40 }}
                                 >
-                                    Create
+                                    انشاء
                                 </StyledButton>
                             </ButtonGroup>
                         </ViewHeader>
