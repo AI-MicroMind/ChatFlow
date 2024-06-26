@@ -7,6 +7,9 @@
 **/package-lock.json
 **/yarn.lock
 
+# yaml lock
+pnpm-lock.yaml
+
 ## logs
 **/logs
 **/*.log
