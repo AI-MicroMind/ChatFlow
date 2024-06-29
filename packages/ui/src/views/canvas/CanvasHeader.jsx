@@ -207,7 +207,7 @@ const CanvasHeader = ({ chatflow, isAgentCanvas, handleSaveFlow, handleDeleteFlo
 
     return (
         <>
-            <Stack flexDirection='row' justifyContent='space-between' sx={{ width: '100%' }}>
+            <Stack flexDirection='row' justifyContent='space-between' sx={{ width: '100%' }} style={{ direction: 'ltr' }}>
                 <Stack flexDirection='row' sx={{ width: '100%', maxWidth: '50%' }}>
                     <Box>
                         <ButtonBase title='Back' sx={{ borderRadius: '50%' }}>
