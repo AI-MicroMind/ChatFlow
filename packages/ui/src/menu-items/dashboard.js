@@ -23,8 +23,8 @@ const dashboard = {
     children: [
         {
             id: 'chatflows',
-            title: 'تدفقات الدردشة',
-            arabicTitle: 'تدفقات الدردشة',
+            title: 'حلول سريعة',
+            arabicTitle: 'حلول سريعة',
             type: 'item',
             url: '/chatflows',
             icon: icons.IconHierarchy,
@@ -32,7 +32,7 @@ const dashboard = {
         },
         {
             id: 'agentflows',
-            title: 'Agentflows',
+            title: 'الادارات الذكية',
             type: 'item',
             url: '/agentflows',
             icon: icons.IconUsersGroup,
@@ -95,7 +95,7 @@ const dashboard = {
         },
         {
             id: 'document-stores',
-            title: 'Document Stores',
+            title: 'مخازن المستندات',
             type: 'item',
             url: '/document-stores',
             icon: icons.IconFiles,

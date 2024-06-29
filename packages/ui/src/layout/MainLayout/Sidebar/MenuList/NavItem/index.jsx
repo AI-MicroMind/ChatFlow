@@ -145,7 +145,7 @@ const NavItem = ({ item, level, navType, onClick, onUploadFile }) => {
                         width: 'max-content',
                         fontWeight: 700,
                         fontSize: '0.65rem',
-                        background: theme.palette.teal.main,
+                        background: '#085d37',
                         color: 'white'
                     }}
                     label={'تجريبي'}

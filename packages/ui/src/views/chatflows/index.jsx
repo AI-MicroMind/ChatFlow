@@ -134,7 +134,7 @@ const Chatflows = () => {
                         onSearchChange={onSearchChange}
                         search={true}
                         searchPlaceholder='البحث عن الاسم أو الفئة'
-                        title='تدفقات الدردشة'
+                        title='حلول سريعة'
                     >
                         <ToggleButtonGroup
                             sx={{ borderRadius: 30, maxHeight: 40 }}
