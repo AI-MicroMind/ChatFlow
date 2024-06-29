@@ -151,7 +151,8 @@ html[dir='rtl'] {
         }
     }
 
-    .MuiCard-root {
+    .MuiCard-root,
+    .MuiPaper-rounded {
         border-radius: 30px;
     }
 

@@ -246,7 +246,7 @@ const Marketplace = () => {
                                         }}
                                     >
                                         <InputLabel size='small' id='filter-badge-label'>
-                                            Tag
+                                            علامة
                                         </InputLabel>
                                         <Select
                                             labelId='filter-badge-label'
@@ -282,7 +282,7 @@ const Marketplace = () => {
                                         }}
                                     >
                                         <InputLabel size='small' id='type-badge-label'>
-                                            Type
+                                            نوع
                                         </InputLabel>
                                         <Select
                                             size='small'
@@ -318,7 +318,7 @@ const Marketplace = () => {
                                         }}
                                     >
                                         <InputLabel size='small' id='type-fw-label'>
-                                            Framework
+                                            إطار العمل
                                         </InputLabel>
                                         <Select
                                             size='small'
@@ -348,7 +348,7 @@ const Marketplace = () => {
                             }
                             onSearchChange={onSearchChange}
                             search={true}
-                            searchPlaceholder='Search Name/Description/Node'
+                            searchPlaceholder='البحث عن الاسم/الوصف/العقدة'
                             title='اسواق'
                         >
                             <ToggleButtonGroup
@@ -459,7 +459,7 @@ const Marketplace = () => {
                                         alt='WorkflowEmptySVG'
                                     />
                                 </Box>
-                                <div>No Marketplace Yet</div>
+                                <div>لا يوجد سوق حتى الآن</div>
                             </Stack>
                         )}
                     </Stack>

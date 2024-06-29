@@ -340,7 +340,12 @@ const APIKey = () => {
                     <ErrorBoundary error={error} />
                 ) : (
                     <Stack flexDirection='column' sx={{ gap: 3 }}>
-                        <ViewHeader onSearchChange={onSearchChange} search={true} searchPlaceholder='Search API Keys' title='API مفاتيح'>
+                        <ViewHeader
+                            onSearchChange={onSearchChange}
+                            search={true}
+                            searchPlaceholder='البحث عن مفاتيح API'
+                            title='API مفاتيح'
+                        >
                             <StyledButton
                                 variant='contained'
                                 sx={{ borderRadius: 30, height: '100%' }}
@@ -360,7 +365,7 @@ const APIKey = () => {
                                         alt='APIEmptySVG'
                                     />
                                 </Box>
-                                <div>No API Keys Yet</div>
+                                <div>لا توجد مفاتيح API حتى الآن</div>
                             </Stack>
                         ) : (
                             <TableContainer
@@ -377,10 +382,10 @@ const APIKey = () => {
                                         }}
                                     >
                                         <TableRow>
-                                            <StyledTableCell>Key Name</StyledTableCell>
-                                            <StyledTableCell>API Key</StyledTableCell>
-                                            <StyledTableCell>Usage</StyledTableCell>
-                                            <StyledTableCell>Created</StyledTableCell>
+                                            <StyledTableCell>اسم المفتاح</StyledTableCell>
+                                            <StyledTableCell>مفتاح API</StyledTableCell>
+                                            <StyledTableCell>الاستخدام</StyledTableCell>
+                                            <StyledTableCell>تم الإنشاء</StyledTableCell>
                                             <StyledTableCell> </StyledTableCell>
                                             <StyledTableCell> </StyledTableCell>
                                         </TableRow>
