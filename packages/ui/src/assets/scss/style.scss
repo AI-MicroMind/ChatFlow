@@ -37,7 +37,7 @@ body {
 .scrollbar-container > .ps {
     &.ps--active-y > .ps__rail-y {
         width: 5px;
-        background-color: transparent !important;
+        background-color: transparent;
         z-index: 999;
         &:hover,
         &.ps--clicking {
@@ -127,25 +127,35 @@ body {
 }
 
 // Modifications RTL
-button {
-    .MuiButton-startIcon {
-        margin-left: 8px;
-        margin-right: -4px;
+html[dir='rtl'] {
+    button {
+        .MuiButton-startIcon {
+            margin-left: 8px;
+            margin-right: -4px;
+        }
+
+        &.MuiToggleButtonGroup-grouped {
+            &:not(:first-of-type) {
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                border-top-right-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border-left-color: rgba(33, 33, 33, 0.145);
+            }
+            &:not(:last-of-type) {
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                border-top-left-radius: 0px;
+                border-bottom-left-radius: 0px;
+            }
+        }
     }
 
-    &.MuiToggleButtonGroup-grouped {
-        &:not(:first-of-type) {
-            border-top-left-radius: 30px !important;
-            border-bottom-left-radius: 30px !important;
-            border-top-right-radius: 0px !important;
-            border-bottom-right-radius: 0px !important;
-            border-left-color: rgba(33, 33, 33, 0.145) !important;
-        }
-        &:not(:last-of-type) {
-            border-top-right-radius: 30px !important;
-            border-bottom-right-radius: 30px !important;
-            border-top-left-radius: 0px !important;
-            border-bottom-left-radius: 0px !important;
-        }
+    .MuiCard-root {
+        border-radius: 30px;
+    }
+
+    .reactflow-parent-wrapper {
+        direction: ltr;
     }
 }
