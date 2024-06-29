@@ -25,19 +25,19 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(({
         }),
         marginRight: 0,
         [theme.breakpoints.up('md')]: {
-            marginLeft: -drawerWidth,
+            marginRight: -drawerWidth,
             width: `calc(100% - ${drawerWidth}px)`
         },
         [theme.breakpoints.down('md')]: {
-            marginLeft: '20px',
+            marginRight: '20px',
             width: `calc(100% - ${drawerWidth}px)`,
             padding: '16px'
         },
         [theme.breakpoints.down('sm')]: {
-            marginLeft: '10px',
+            marginRight: '10px',
             width: `calc(100% - ${drawerWidth}px)`,
             padding: '16px',
-            marginRight: '10px'
+            marginLeft: '10px'
         }
     }),
     ...(open && {

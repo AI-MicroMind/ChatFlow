@@ -427,7 +427,7 @@ const LoaderConfigPreviewChunks = () => {
                                     <StyledButton
                                         variant='contained'
                                         onClick={onSaveAndProcess}
-                                        sx={{ borderRadius: 2, height: '100%' }}
+                                        sx={{ borderRadius: 30, height: '100%' }}
                                         startIcon={<IconDatabaseImport />}
                                     >
                                         Process
@@ -621,7 +621,7 @@ const LoaderConfigPreviewChunks = () => {
                                                                 sx={{
                                                                     border: 1,
                                                                     borderColor: theme.palette.grey[900] + 25,
-                                                                    borderRadius: 2
+                                                                    borderRadius: 30
                                                                 }}
                                                             >
                                                                 <Card>

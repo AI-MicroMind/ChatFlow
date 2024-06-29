@@ -201,12 +201,12 @@ const Variables = () => {
                 ) : (
                     <Stack flexDirection='column' sx={{ gap: 3 }}>
                         <ViewHeader onSearchChange={onSearchChange} search={true} searchPlaceholder='Search Variables' title='متغيرات'>
-                            <Button variant='outlined' sx={{ borderRadius: 2, height: '100%' }} onClick={() => setShowHowToDialog(true)}>
+                            <Button variant='outlined' sx={{ borderRadius: 30, height: '100%' }} onClick={() => setShowHowToDialog(true)}>
                                 كيفية الاستخدام
                             </Button>
                             <StyledButton
                                 variant='contained'
-                                sx={{ borderRadius: 2, height: '100%' }}
+                                sx={{ borderRadius: 30, height: '100%' }}
                                 onClick={addNew}
                                 startIcon={<IconPlus />}
                                 id='btn_createVariable'
@@ -227,7 +227,7 @@ const Variables = () => {
                             </Stack>
                         ) : (
                             <TableContainer
-                                sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 2 }}
+                                sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 30 }}
                                 component={Paper}
                             >
                                 <Table sx={{ minWidth: 650 }} aria-label='simple table'>

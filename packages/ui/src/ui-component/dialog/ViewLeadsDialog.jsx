@@ -128,9 +128,9 @@ const ViewLeadsDialog = ({ show, dialogProps, onCancel }) => {
                             width: '280px',
                             height: '100%',
                             display: { xs: 'none', sm: 'flex' },
-                            borderRadius: 2,
+                            borderRadius: 30,
                             '& .MuiOutlinedInput-notchedOutline': {
-                                borderRadius: 2
+                                borderRadius: 30
                             }
                         }}
                         variant='outlined'

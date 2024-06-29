@@ -81,7 +81,7 @@ export const FlowListTable = ({ data, images, isLoading, filterFunction, updateF
 
     return (
         <>
-            <TableContainer sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 2 }} component={Paper}>
+            <TableContainer sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 30 }} component={Paper}>
                 <Table sx={{ minWidth: 650 }} size='small' aria-label='a dense table'>
                     <TableHead
                         sx={{

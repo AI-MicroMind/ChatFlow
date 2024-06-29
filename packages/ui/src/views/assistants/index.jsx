@@ -106,13 +106,13 @@ const Assistants = () => {
                                 variant='outlined'
                                 onClick={loadExisting}
                                 startIcon={<IconFileUpload />}
-                                sx={{ borderRadius: 2, height: 40 }}
+                                sx={{ borderRadius: 30, height: 40 }}
                             >
                                 تحميل
                             </Button>
                             <StyledButton
                                 variant='contained'
-                                sx={{ borderRadius: 2, height: 40 }}
+                                sx={{ borderRadius: 30, height: 40 }}
                                 onClick={addNew}
                                 startIcon={<IconPlus />}
                             >

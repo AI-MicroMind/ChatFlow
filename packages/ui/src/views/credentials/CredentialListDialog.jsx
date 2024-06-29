@@ -125,7 +125,7 @@ const CredentialListDialog = ({ show, dialogProps, onCancel, onCredentialSelecte
                             sx={{
                                 border: 1,
                                 borderColor: theme.palette.grey[900] + 25,
-                                borderRadius: 2,
+                                borderRadius: 30,
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'start',

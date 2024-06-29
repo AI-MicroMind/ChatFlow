@@ -226,7 +226,7 @@ const CanvasNode = ({ data }) => {
                                             : 0
                                 }}
                             >
-                                <Button sx={{ borderRadius: 25, width: '90%', mb: 2 }} variant='outlined' onClick={onDialogClicked}>
+                                <Button sx={{ borderRadius: 305, width: '90%', mb: 2 }} variant='outlined' onClick={onDialogClicked}>
                                     Additional Parameters
                                 </Button>
                             </div>

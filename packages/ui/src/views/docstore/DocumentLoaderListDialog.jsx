@@ -139,7 +139,7 @@ const DocumentLoaderListDialog = ({ show, dialogProps, onCancel, onDocLoaderSele
                             sx={{
                                 border: 1,
                                 borderColor: theme.palette.grey[900] + 25,
-                                borderRadius: 2,
+                                borderRadius: 30,
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'start',

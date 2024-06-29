@@ -132,7 +132,7 @@ const Agentflows = () => {
                 <Stack flexDirection='column' sx={{ gap: 3 }}>
                     <ViewHeader onSearchChange={onSearchChange} search={true} searchPlaceholder='Search Name or Category' title='Agents'>
                         <ToggleButtonGroup
-                            sx={{ borderRadius: 2, maxHeight: 40 }}
+                            sx={{ borderRadius: 30, maxHeight: 40 }}
                             value={view}
                             color='primary'
                             exclusive
@@ -141,7 +141,7 @@ const Agentflows = () => {
                             <ToggleButton
                                 sx={{
                                     borderColor: theme.palette.grey[900] + 25,
-                                    borderRadius: 2,
+                                    borderRadius: 30,
                                     color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                 }}
                                 variant='contained'
@@ -153,7 +153,7 @@ const Agentflows = () => {
                             <ToggleButton
                                 sx={{
                                     borderColor: theme.palette.grey[900] + 25,
-                                    borderRadius: 2,
+                                    borderRadius: 30,
                                     color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                 }}
                                 variant='contained'
@@ -163,7 +163,7 @@ const Agentflows = () => {
                                 <IconList />
                             </ToggleButton>
                         </ToggleButtonGroup>
-                        <StyledButton variant='contained' onClick={addNew} startIcon={<IconPlus />} sx={{ borderRadius: 2, height: 40 }}>
+                        <StyledButton variant='contained' onClick={addNew} startIcon={<IconPlus />} sx={{ borderRadius: 30, height: 40 }}>
                             Add New
                         </StyledButton>
                     </ViewHeader>

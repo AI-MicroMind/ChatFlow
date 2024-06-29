@@ -147,7 +147,7 @@ const Documents = () => {
                 <Stack flexDirection='column' sx={{ gap: 3 }}>
                     <ViewHeader onSearchChange={onSearchChange} search={true} searchPlaceholder='Search Name' title='Document Store'>
                         <ToggleButtonGroup
-                            sx={{ borderRadius: 2, maxHeight: 40 }}
+                            sx={{ borderRadius: 30, maxHeight: 40 }}
                             value={view}
                             color='primary'
                             exclusive
@@ -156,7 +156,7 @@ const Documents = () => {
                             <ToggleButton
                                 sx={{
                                     borderColor: theme.palette.grey[900] + 25,
-                                    borderRadius: 2,
+                                    borderRadius: 30,
                                     color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                 }}
                                 variant='contained'
@@ -168,7 +168,7 @@ const Documents = () => {
                             <ToggleButton
                                 sx={{
                                     borderColor: theme.palette.grey[900] + 25,
-                                    borderRadius: 2,
+                                    borderRadius: 30,
                                     color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                 }}
                                 variant='contained'
@@ -180,7 +180,7 @@ const Documents = () => {
                         </ToggleButtonGroup>
                         <StyledButton
                             variant='contained'
-                            sx={{ borderRadius: 2, height: '100%' }}
+                            sx={{ borderRadius: 30, height: '100%' }}
                             onClick={addNew}
                             startIcon={<IconPlus />}
                             id='btn_createVariable'
@@ -210,7 +210,7 @@ const Documents = () => {
                             )}
                         </>
                     ) : (
-                        <TableContainer sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 2 }} component={Paper}>
+                        <TableContainer sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 30 }} component={Paper}>
                             <Table aria-label='documents table'>
                                 <TableHead
                                     sx={{

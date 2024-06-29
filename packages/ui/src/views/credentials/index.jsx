@@ -236,7 +236,7 @@ const Credentials = () => {
                         >
                             <StyledButton
                                 variant='contained'
-                                sx={{ borderRadius: 2, height: '100%' }}
+                                sx={{ borderRadius: 30, height: '100%' }}
                                 onClick={listCredential}
                                 startIcon={<IconPlus />}
                             >
@@ -256,7 +256,7 @@ const Credentials = () => {
                             </Stack>
                         ) : (
                             <TableContainer
-                                sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 2 }}
+                                sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 30 }}
                                 component={Paper}
                             >
                                 <Table sx={{ minWidth: 650 }} aria-label='simple table'>

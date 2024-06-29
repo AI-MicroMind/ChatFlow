@@ -74,7 +74,7 @@ const MenuProps = {
 }
 const SelectStyles = {
     '& .MuiOutlinedInput-notchedOutline': {
-        borderRadius: 2
+        borderRadius: 30
     }
 }
 // ==============================|| Marketplace ||============================== //
@@ -238,7 +238,7 @@ const Marketplace = () => {
                                 <>
                                     <FormControl
                                         sx={{
-                                            borderRadius: 2,
+                                            borderRadius: 30,
                                             display: 'flex',
                                             flexDirection: 'column',
                                             justifyContent: 'end',
@@ -274,7 +274,7 @@ const Marketplace = () => {
                                     </FormControl>
                                     <FormControl
                                         sx={{
-                                            borderRadius: 2,
+                                            borderRadius: 30,
                                             display: 'flex',
                                             flexDirection: 'column',
                                             justifyContent: 'end',
@@ -310,7 +310,7 @@ const Marketplace = () => {
                                     </FormControl>
                                     <FormControl
                                         sx={{
-                                            borderRadius: 2,
+                                            borderRadius: 30,
                                             display: 'flex',
                                             flexDirection: 'column',
                                             justifyContent: 'end',
@@ -352,7 +352,7 @@ const Marketplace = () => {
                             title='اسواق'
                         >
                             <ToggleButtonGroup
-                                sx={{ borderRadius: 2, height: '100%' }}
+                                sx={{ borderRadius: 30, height: '100%' }}
                                 value={view}
                                 color='primary'
                                 exclusive
@@ -361,7 +361,7 @@ const Marketplace = () => {
                                 <ToggleButton
                                     sx={{
                                         borderColor: theme.palette.grey[900] + 25,
-                                        borderRadius: 2,
+                                        borderRadius: 30,
                                         color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                     }}
                                     variant='contained'
@@ -373,7 +373,7 @@ const Marketplace = () => {
                                 <ToggleButton
                                     sx={{
                                         borderColor: theme.palette.grey[900] + 25,
-                                        borderRadius: 2,
+                                        borderRadius: 30,
                                         color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                     }}
                                     variant='contained'

@@ -123,7 +123,7 @@ const Tools = () => {
                                     variant='outlined'
                                     onClick={() => inputRef.current.click()}
                                     startIcon={<IconFileUpload />}
-                                    sx={{ borderRadius: 2, height: 40 }}
+                                    sx={{ borderRadius: 30, height: 40 }}
                                 >
                                     تحميل
                                 </Button>
@@ -141,7 +141,7 @@ const Tools = () => {
                                     variant='contained'
                                     onClick={addNew}
                                     startIcon={<IconPlus />}
-                                    sx={{ borderRadius: 2, height: 40 }}
+                                    sx={{ borderRadius: 30, height: 40 }}
                                 >
                                     انشاء
                                 </StyledButton>

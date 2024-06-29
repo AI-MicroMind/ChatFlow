@@ -65,7 +65,7 @@ const Sidebar = ({ drawerOpen, drawerToggle, window }) => {
             <Drawer
                 container={container}
                 variant={matchUpMd ? 'persistent' : 'temporary'}
-                anchor='left'
+                anchor='right'
                 open={drawerOpen}
                 onClose={drawerToggle}
                 sx={{

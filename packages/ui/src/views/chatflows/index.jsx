@@ -133,11 +133,11 @@ const Chatflows = () => {
                     <ViewHeader
                         onSearchChange={onSearchChange}
                         search={true}
-                        searchPlaceholder='Search Name or Category'
+                        searchPlaceholder='البحث عن الاسم أو الفئة'
                         title='تدفقات الدردشة'
                     >
                         <ToggleButtonGroup
-                            sx={{ borderRadius: 2, maxHeight: 40 }}
+                            sx={{ borderRadius: 30, maxHeight: 40 }}
                             value={view}
                             color='primary'
                             exclusive
@@ -146,29 +146,29 @@ const Chatflows = () => {
                             <ToggleButton
                                 sx={{
                                     borderColor: theme.palette.grey[900] + 25,
-                                    borderRadius: 2,
+                                    borderRadius: 30,
                                     color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                 }}
                                 variant='contained'
                                 value='card'
-                                title='Card View'
+                                title='عرض البطاقة'
                             >
                                 <IconLayoutGrid />
                             </ToggleButton>
                             <ToggleButton
                                 sx={{
                                     borderColor: theme.palette.grey[900] + 25,
-                                    borderRadius: 2,
+                                    borderRadius: 30,
                                     color: theme?.customization?.isDarkMode ? 'white' : 'inherit'
                                 }}
                                 variant='contained'
                                 value='list'
-                                title='List View'
+                                title='عرض القائمة'
                             >
                                 <IconList />
                             </ToggleButton>
                         </ToggleButtonGroup>
-                        <StyledButton variant='contained' onClick={addNew} startIcon={<IconPlus />} sx={{ borderRadius: 2, height: 40 }}>
+                        <StyledButton variant='contained' onClick={addNew} startIcon={<IconPlus />} sx={{ borderRadius: 30, height: 40 }}>
                             اضافة جديد
                         </StyledButton>
                     </ViewHeader>
@@ -207,7 +207,7 @@ const Chatflows = () => {
                                     alt='WorkflowEmptySVG'
                                 />
                             </Box>
-                            <div>No Chatflows Yet</div>
+                            <div>لا توجد تدفقات محادثة حتى الآن</div>
                         </Stack>
                     )}
                 </Stack>

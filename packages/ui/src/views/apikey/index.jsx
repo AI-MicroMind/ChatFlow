@@ -133,7 +133,7 @@ function APIKeyRow(props) {
                 <TableRow sx={{ '& td': { border: 0 } }}>
                     <StyledTableCell sx={{ p: 2 }} colSpan={6}>
                         <Collapse in={open} timeout='auto' unmountOnExit>
-                            <Box sx={{ borderRadius: 2, border: 1, borderColor: theme.palette.grey[900] + 25, overflow: 'hidden' }}>
+                            <Box sx={{ borderRadius: 30, border: 1, borderColor: theme.palette.grey[900] + 25, overflow: 'hidden' }}>
                                 <Table aria-label='chatflow table'>
                                     <TableHead sx={{ height: 48 }}>
                                         <TableRow>
@@ -343,7 +343,7 @@ const APIKey = () => {
                         <ViewHeader onSearchChange={onSearchChange} search={true} searchPlaceholder='Search API Keys' title='API مفاتيح'>
                             <StyledButton
                                 variant='contained'
-                                sx={{ borderRadius: 2, height: '100%' }}
+                                sx={{ borderRadius: 30, height: '100%' }}
                                 onClick={addNew}
                                 startIcon={<IconPlus />}
                                 id='btn_createApiKey'
@@ -364,7 +364,7 @@ const APIKey = () => {
                             </Stack>
                         ) : (
                             <TableContainer
-                                sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 2 }}
+                                sx={{ border: 1, borderColor: theme.palette.grey[900] + 25, borderRadius: 30 }}
                                 component={Paper}
                             >
                                 <Table sx={{ minWidth: 650 }} aria-label='simple table'>
