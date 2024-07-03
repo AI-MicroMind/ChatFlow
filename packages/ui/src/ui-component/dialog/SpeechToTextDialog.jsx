@@ -33,6 +33,7 @@ const SpeechToTextDialog = ({ show, dialogProps, onCancel }) => {
             maxWidth='sm'
             aria-labelledby='alert-dialog-title'
             aria-describedby='alert-dialog-description'
+            dir='ltr'
         >
             <DialogTitle sx={{ fontSize: '1rem' }} id='alert-dialog-title'>
                 {dialogProps.title || 'Allowed Domains'}

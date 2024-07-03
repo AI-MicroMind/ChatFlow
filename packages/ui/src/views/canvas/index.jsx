@@ -514,7 +514,7 @@ const Canvas = () => {
     usePrompt('You have unsaved changes! Do you want to navigate away?', canvasDataStore.isDirty)
 
     return (
-        <>
+        <div dir='ltr'>
             <Box>
                 <AppBar
                     enableColorOnDark
@@ -593,7 +593,7 @@ const Canvas = () => {
                 </Box>
                 <ConfirmDialog />
             </Box>
-        </>
+        </div>
     )
 }
 
