@@ -156,7 +156,8 @@ html[dir='rtl'] {
         border-radius: 30px;
     }
 
-    .reactflow-parent-wrapper {
+    .reactflow-parent-wrapper,
+    #portal {
         direction: ltr;
         text-align: left;
     }
